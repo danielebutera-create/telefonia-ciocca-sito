@@ -15,6 +15,7 @@
 
 # next.js
 /.next/
+/.next-build/
 /out/
 
 # production
@@ -23,6 +24,20 @@
 # misc
 .DS_Store
 *.pem
+
+# macOS metadata (AppleDouble files creati su filesystem non-HFS)
+._*
+.AppleDouble
+.LSOverride
+
+# Asset/documenti di lavoro NON parte del sito
+/tmp/
+/OFFERTE ATTIVE CIOCCA/
+/BILL+ ORAZIO.jpg
+/DSC_5824-Modifica.jpeg
+/ANTIGRAVITY_HANDOFF.md
+/SPEC-HOME-REBRIEF-*.md
+/proposta-operativa-home-ciocca.*
 
 # debug
 npm-debug.log*
