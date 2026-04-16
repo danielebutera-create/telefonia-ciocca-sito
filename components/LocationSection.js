@@ -33,8 +33,8 @@ const sedi = [
     subtitle: "Fara in Sabina (RI)",
     address: "Via Garibaldi, 72",
     city: "02032 Fara in Sabina (RI)",
-    phone: "06 9073674",
-    phoneHref: "tel:069073674",
+    phone: "0765 213394",
+    phoneHref: "tel:+390765213394",
     mapsUrl: "https://maps.google.com/?q=Via+Garibaldi+72+Fara+in+Sabina",
     mapsLabel: "Vieni a trovarci",
     rating: null,
@@ -157,9 +157,6 @@ const LocationCard = ({ sede }) => {
             onMouseEnter={(e) => e.target.style.color = "var(--primary)"}
             onMouseLeave={(e) => e.target.style.color = "var(--text-secondary)"}
           >{sede.phone}</a>
-          {!sede.active && (
-            <span style={{ fontSize: "0.6875rem", color: "var(--text-muted)", fontStyle: "italic" }}>(stesso numero)</span>
-          )}
         </div>
 
         {/* Orari */}
@@ -255,7 +252,7 @@ const LocationSection = () => {
           color: "var(--text-muted)",
           fontStyle: "italic",
         }}>
-          Entrambe le sedi sono raggiungibili al <a href="tel:069073674" style={{ color: "var(--text-secondary)" }}>06 9073674</a>.
+          Capena: <a href="tel:069073674" style={{ color: "var(--text-secondary)" }}>06 9073674</a> · Passo Corese: <a href="tel:+390765213394" style={{ color: "var(--text-secondary)" }}>0765 213394</a>
         </p>
       </div>
     </section>
