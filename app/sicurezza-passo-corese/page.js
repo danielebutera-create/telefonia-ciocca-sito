@@ -10,7 +10,7 @@ export default function SicurezzaPassoCorese() {
   const valueProps = [
     { title: "Sistemi Verisure", desc: "La migliore tecnologia smart con i prodotti di vertice del leader mondiale in sistemi di sicurezza.", icon: <ShieldAlert size={28} /> },
     { title: "Monitoraggio 24/7", desc: "Un occhio vigile e risposta istantanea in caso di intrusione, anche nelle zone più isolate della Sabina.", icon: <Video size={28} /> },
-    { title: "Protezione Completa", desc: "Soluzioni per abitazioni, aziende agricole e attività commerciali nella zona di Fara in Sabina.", icon: <KeyRound size={28} /> },
+    { title: "Protezione Completa", desc: "Soluzioni per abitazioni, aziende agricole e attività commerciali nella zona di Fara in Sabina, sia privati che business.", icon: <KeyRound size={28} /> },
     { title: "Preventivi Rapidi", desc: "Scopri i costi reali senza impegno. Installazione wireless, nessuna ristrutturazione necessaria.", icon: <BellRing size={28} /> },
   ];
 

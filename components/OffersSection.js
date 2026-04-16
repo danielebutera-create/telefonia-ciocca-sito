@@ -21,7 +21,7 @@ const OffersSection = () => {
       icon: <Wifi size={40} />,
       items: [
         { name: "Iliad e Fastweb", price: "Piani Alto Giga", tag: "5G" },
-        { name: "TIM e Vodafone", price: "Miglior Copertura", tag: "Premium" },
+        { name: "Vodafone e SKY", price: "Miglior Copertura", tag: "Premium" },
         { name: "Assistenza SIM", price: "Subentro Rapido", tag: "Express" }
       ],
       gradient: "linear-gradient(135deg, #8b5cf6, #6d28d9)",

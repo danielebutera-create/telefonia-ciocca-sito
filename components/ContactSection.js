@@ -1,16 +1,23 @@
 "use client";
 
 import { useState, useRef } from "react";
+import Link from "next/link";
 import { MapPin, Phone, Clock, Send, Loader2 } from "lucide-react";
 
 const ContactSection = () => {
   // "idle" | "loading" | "success" | "error"
   const [status, setStatus] = useState("idle");
   const [errorMsg, setErrorMsg] = useState("");
+  const [privacyChecked, setPrivacyChecked] = useState(false);
   const formRef = useRef(null);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    if (!privacyChecked) {
+      setErrorMsg("Per inviare il messaggio devi confermare di aver letto l'informativa privacy.");
+      setStatus("error");
+      return;
+    }
     setStatus("loading");
     setErrorMsg("");
 
@@ -248,10 +255,38 @@ const ContactSection = () => {
                 }}>
                   <span style={{ fontSize: "1rem", flexShrink: 0, marginTop: "1px" }}>📲</span>
                   <p style={{ fontSize: "0.8125rem", color: "rgba(255,255,255,0.45)", lineHeight: 1.55, margin: 0 }}>
-                    Il messaggio viene inviato via <strong style={{ color: "rgba(255,255,255,0.65)" }}>WhatsApp</strong> per una risposta immediata
+                    Il messaggio viene inviato via <strong style={{ color: "rgba(255,255,255,0.65)" }}>WhatsApp</strong> (Meta Platforms Ireland Ltd.) per una risposta immediata
                     e via <strong style={{ color: "rgba(255,255,255,0.65)" }}>email</strong> come conferma.
                   </p>
                 </div>
+
+                {/* ── Privacy consent (GDPR art. 13) ── */}
+                <label style={{
+                  display: "flex", alignItems: "flex-start", gap: "0.625rem",
+                  padding: "0.875rem 1rem",
+                  background: "rgba(255,255,255,0.03)",
+                  border: "1px solid rgba(255,255,255,0.1)",
+                  borderRadius: "0.75rem",
+                  cursor: "pointer",
+                }}>
+                  <input
+                    type="checkbox"
+                    checked={privacyChecked}
+                    onChange={(e) => setPrivacyChecked(e.target.checked)}
+                    disabled={status === "loading"}
+                    required
+                    style={{ marginTop: "0.2rem", flexShrink: 0, accentColor: "#25D366", cursor: "pointer" }}
+                  />
+                  <span style={{ fontSize: "0.8125rem", color: "rgba(255,255,255,0.65)", lineHeight: 1.55 }}>
+                    Ho letto l&apos;{" "}
+                    <Link href="/privacy" target="_blank" style={{ color: "#4aa3df", textDecoration: "underline", fontWeight: 600 }}>
+                      informativa privacy
+                    </Link>{" "}
+                    e acconsento al trattamento dei miei dati (nome, email, messaggio) da parte di{" "}
+                    <strong style={{ color: "rgba(255,255,255,0.85)" }}>Quisqui S.r.l.</strong> per rispondere alla mia richiesta tramite email e WhatsApp.
+                    I dati non saranno comunicati a terzi per finalità di marketing.
+                  </span>
+                </label>
 
                 <button
                   type="submit"

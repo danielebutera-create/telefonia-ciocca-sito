@@ -152,10 +152,27 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Bottom bar */}
+        {/* Legal row (art. 2250 c.c.) */}
         <div style={{
           marginTop: '3rem',
           paddingTop: '1.5rem',
+          borderTop: '1px solid rgba(255, 255, 255, 0.06)',
+          fontSize: '0.75rem',
+          color: 'rgba(255, 255, 255, 0.35)',
+          lineHeight: 1.7,
+        }}>
+          <p style={{ marginBottom: '0.5rem' }}>
+            <strong style={{ color: 'rgba(255,255,255,0.55)' }}>Quisqui S.r.l.</strong> — Sede legale: Via Mozart 7, 00060 Castelnuovo di Porto (RM) — C.F./P.IVA 15157791003 — REA RM-1571645 — Capitale Sociale € 10.000,00 (di cui versato € 2.500,00) — PEC: quisquisrl@pec.it
+          </p>
+          <p style={{ fontSize: '0.6875rem', color: 'rgba(255,255,255,0.25)' }}>
+            &quot;Telefonia Ciocca&quot; è un&apos;insegna commerciale di Quisqui S.r.l.
+          </p>
+        </div>
+
+        {/* Bottom bar */}
+        <div style={{
+          marginTop: '1.25rem',
+          paddingTop: '1rem',
           borderTop: '1px solid rgba(255, 255, 255, 0.06)',
           display: 'flex',
           flexWrap: 'wrap',
@@ -165,7 +182,7 @@ export default function Footer() {
           fontSize: '0.75rem',
           color: 'rgba(255, 255, 255, 0.3)',
         }}>
-          <p>© {currentYear} Telefonia Ciocca - Quisqui srl - P.IVA 15157791003</p>
+          <p>© {currentYear} Quisqui S.r.l. — Tutti i diritti riservati</p>
           <div style={{ display: 'flex', gap: '1.5rem' }}>
             <Link href="/privacy" style={{ color: 'rgba(255,255,255,0.3)', transition: 'color 0.2s' }}
               onMouseEnter={(e) => e.target.style.color = '#e87722'}

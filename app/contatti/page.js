@@ -4,7 +4,6 @@ export const metadata = {
 };
 
 const MAPS_NAV = "https://maps.google.com/?q=Telefonia+Ciocca,+Via+Tiberina+28C,+00060+Capena+RM&dirflg=d";
-const MAPS_EMBED = "https://maps.google.com/maps?q=Via+Tiberina+28C+Capena+RM+Italy&output=embed&z=16&hl=it";
 
 export default function Contatti() {
   const info = [
@@ -62,35 +61,46 @@ export default function Contatti() {
               ))}
             </div>
 
-            {/* Mappa Google Maps embed + pulsante navigatore */}
-            <div style={{ borderRadius: '1.25rem', overflow: 'hidden', border: '1px solid var(--border)', boxShadow: 'var(--shadow)' }}>
-              <div style={{ position: 'relative', height: '320px' }}>
-                <iframe
-                  src={MAPS_EMBED}
-                  width="100%"
-                  height="100%"
-                  style={{ border: 0, display: 'block' }}
-                  allowFullScreen
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                  title="Telefonia Ciocca — Via Tiberina 28C, Capena"
-                />
-              </div>
-              <div style={{ padding: '1rem 1.25rem', background: 'var(--card)', display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: '1rem', flexWrap: 'wrap' }}>
-                <div>
-                  <div style={{ fontWeight: 700, fontSize: '0.9375rem', color: 'var(--text-primary)' }}>Via Tiberina, 28C — Capena (RM)</div>
-                  <div style={{ fontSize: '0.8125rem', color: 'var(--text-muted)' }}>CAP 00060 · Sede principale</div>
+            {/* Card indirizzo + pulsante navigatore (no iframe, sito cookie-free) */}
+            <div style={{
+              borderRadius: '1.25rem',
+              overflow: 'hidden',
+              border: '1px solid var(--border)',
+              boxShadow: 'var(--shadow)',
+              background: 'var(--card)',
+              padding: '2rem',
+              display: 'flex',
+              flexDirection: 'column',
+              gap: '1.25rem',
+            }}>
+              <div style={{ display: 'flex', alignItems: 'flex-start', gap: '1rem' }}>
+                <div style={{
+                  width: '3rem', height: '3rem',
+                  borderRadius: '0.75rem',
+                  background: 'rgba(217, 119, 6, 0.1)',
+                  color: 'var(--gold)',
+                  display: 'flex', alignItems: 'center', justifyContent: 'center',
+                  fontSize: '1.5rem',
+                  flexShrink: 0,
+                }}>📍</div>
+                <div style={{ flex: 1, minWidth: 0 }}>
+                  <div style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--gold)', textTransform: 'uppercase', letterSpacing: '0.08em', marginBottom: '0.25rem' }}>Sede Principale</div>
+                  <div style={{ fontWeight: 800, fontSize: '1.125rem', color: 'var(--text-primary)', marginBottom: '0.25rem' }}>Via Tiberina, 28C — Capena (RM)</div>
+                  <div style={{ fontSize: '0.875rem', color: 'var(--text-muted)' }}>CAP 00060 · Facilmente raggiungibile in auto</div>
                 </div>
-                <a href={MAPS_NAV} target="_blank" rel="noreferrer"
-                  style={{
-                    display: 'inline-flex', alignItems: 'center', gap: '0.4rem',
-                    padding: '0.625rem 1.25rem', borderRadius: '0.625rem',
-                    background: 'var(--primary)', color: 'white',
-                    fontWeight: 700, fontSize: '0.875rem', textDecoration: 'none', whiteSpace: 'nowrap',
-                  }}>
-                  📍 Apri Navigatore
-                </a>
               </div>
+              <a href={MAPS_NAV} target="_blank" rel="noopener noreferrer"
+                style={{
+                  display: 'inline-flex', alignItems: 'center', justifyContent: 'center', gap: '0.5rem',
+                  padding: '0.875rem 1.25rem', borderRadius: '0.75rem',
+                  background: 'var(--primary)', color: 'white',
+                  fontWeight: 700, fontSize: '0.9375rem', textDecoration: 'none',
+                }}>
+                📍 Apri in Google Maps
+              </a>
+              <p style={{ fontSize: '0.75rem', color: 'var(--text-muted)', lineHeight: 1.5, margin: 0 }}>
+                Cliccando sul pulsante verrai reindirizzato a Google Maps. Il caricamento della mappa avviene solo dopo il tuo click esplicito.
+              </p>
             </div>
           </div>
         </div>
