@@ -1,4 +1,5 @@
 import { Inter, Outfit } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -69,7 +70,7 @@ export default function RootLayout({ children }) {
         "@id": "https://telefoniaciocca.it/#passocorese",
         "name": "Telefonia Ciocca — Passo Corese",
         "description": "Punto vendita di Telefonia Ciocca a Passo Corese, Fara in Sabina. Telefonia, energia, fotovoltaico e fibra ottica.",
-        "telephone": "+39069073674",
+        "telephone": "+390765213394",
         "branchOf": { "@id": "https://telefoniaciocca.it/#capena" },
         "address": {
           "@type": "PostalAddress",
@@ -99,6 +100,19 @@ export default function RootLayout({ children }) {
         <main>{children}</main>
         <Footer />
         <WhatsAppButton />
+        {/* Google Analytics GA4 */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-B4ED011RDR"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-B4ED011RDR');
+          `}
+        </Script>
       </body>
     </html>
   );
