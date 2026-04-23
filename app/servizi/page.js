@@ -10,7 +10,7 @@ export const metadata = {
     type: "website",
     locale: "it_IT",
   },
-  alternates: { canonical: "https://telefoniaciocca.it/servizi" },
+  alternates: { canonical: "https://www.telefoniaciocca.it/servizi" },
 };
 
 export default function Servizi() {

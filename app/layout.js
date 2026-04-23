@@ -16,7 +16,7 @@ const outfit = Outfit({
 });
 
 export const metadata = {
-  metadataBase: new URL("https://telefoniaciocca.it"),
+  metadataBase: new URL("https://www.telefoniaciocca.it"),
   title: {
     default: "Telefonia Ciocca | Energia, Fibra e Assistenza a Capena",
     template: "%s | Telefonia Ciocca",
@@ -24,7 +24,7 @@ export const metadata = {
   description: "Da oltre 25 anni il tuo punto di riferimento a Capena per telefonia, energia, fibra ottica e assistenza tecnica professionale.",
   keywords: ["telefonia capena", "assistenza cellulari capena", "luce e gas capena", "fibra ottica capena", "telefonia ciocca"],
   alternates: {
-    canonical: "https://telefoniaciocca.it",
+    canonical: "https://www.telefoniaciocca.it",
   },
   robots: {
     index: true,
@@ -52,7 +52,7 @@ export default function RootLayout({ children }) {
     "@graph": [
       {
         "@type": "LocalBusiness",
-        "@id": "https://telefoniaciocca.it/#capena",
+        "@id": "https://www.telefoniaciocca.it/#capena",
         "name": "Telefonia Ciocca",
         "description": "Telefonia, energia, fotovoltaico, fibra ottica e assistenza smartphone a Capena (RM). Oltre 25 anni di esperienza.",
         "telephone": "+39069073674",
@@ -69,7 +69,7 @@ export default function RootLayout({ children }) {
           "latitude": 42.1194787,
           "longitude": 12.5895979
         },
-        "url": "https://telefoniaciocca.it",
+        "url": "https://www.telefoniaciocca.it",
         "openingHours": openingHours,
         "areaServed": areaServed,
         "sameAs": [
@@ -79,11 +79,11 @@ export default function RootLayout({ children }) {
       },
       {
         "@type": "LocalBusiness",
-        "@id": "https://telefoniaciocca.it/#passocorese",
+        "@id": "https://www.telefoniaciocca.it/#passocorese",
         "name": "Telefonia Ciocca — Passo Corese",
         "description": "Punto vendita di Telefonia Ciocca a Passo Corese, Fara in Sabina. Telefonia, energia, fotovoltaico e fibra ottica.",
         "telephone": "+390765213394",
-        "branchOf": { "@id": "https://telefoniaciocca.it/#capena" },
+        "branchOf": { "@id": "https://www.telefoniaciocca.it/#capena" },
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "Via Garibaldi, 72",
@@ -92,7 +92,7 @@ export default function RootLayout({ children }) {
           "addressRegion": "RI",
           "addressCountry": "IT"
         },
-        "url": "https://telefoniaciocca.it/passo-corese",
+        "url": "https://www.telefoniaciocca.it/passo-corese",
         "openingHours": openingHours,
         "areaServed": areaServed
       }

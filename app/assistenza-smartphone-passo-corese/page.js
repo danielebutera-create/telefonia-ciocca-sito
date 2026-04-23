@@ -4,7 +4,7 @@ import { Wrench, MailSearch, SmartphoneNfc, ShieldCheck } from "lucide-react";
 export const metadata = {
   title: "Assistenza Smartphone a Passo Corese e Fara in Sabina | Telefonia Ciocca",
   description: "Assistenza tecnica smartphone, tablet e PC a Passo Corese (Fara in Sabina). Configurazioni, recupero dati, SPID e burocrazia digitale. Sede in Via Garibaldi 72.",
-  alternates: { canonical: "https://telefoniaciocca.it/assistenza-smartphone-passo-corese" },
+  alternates: { canonical: "https://www.telefoniaciocca.it/assistenza-smartphone-passo-corese" },
 };
 
 export default function AssistenzaPassoCorese() {

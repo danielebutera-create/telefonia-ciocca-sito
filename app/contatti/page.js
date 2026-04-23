@@ -1,7 +1,7 @@
 export const metadata = {
   title: "Contattaci o vieni a trovarci a Capena | Telefonia Ciocca",
   description: "Hai bisogno di assistenza o vuoi richiedere un preventivo gratuito per fibra, fotovoltaico o riparazioni? Contattaci subito.",
-  alternates: { canonical: "https://telefoniaciocca.it/contatti" },
+  alternates: { canonical: "https://www.telefoniaciocca.it/contatti" },
 };
 
 const MAPS_NAV = "https://maps.google.com/?q=Telefonia+Ciocca,+Via+Tiberina+28C,+00060+Capena+RM&dirflg=d";

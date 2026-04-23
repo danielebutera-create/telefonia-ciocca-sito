@@ -4,7 +4,7 @@ import { MapPin, Phone, ArrowRight, Wifi, Sun, Shield, Smartphone, Zap, MessageC
 export const metadata = {
   title: "Telefonia Ciocca Passo Corese — Fibra, Energia, Fotovoltaico a Fara in Sabina",
   description: "Nuova sede Telefonia Ciocca a Passo Corese (Fara in Sabina). Fibra ottica, risparmio bollette, fotovoltaico, sicurezza e assistenza smartphone. Via Garibaldi 72.",
-  alternates: { canonical: "https://telefoniaciocca.it/passo-corese" },
+  alternates: { canonical: "https://www.telefoniaciocca.it/passo-corese" },
 };
 
 const WA = "https://wa.me/390765213394?text=Ciao%20Telefonia%20Ciocca%2C%20vorrei%20informazioni%20sulla%20sede%20di%20Passo%20Corese.";

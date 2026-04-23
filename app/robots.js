@@ -4,6 +4,6 @@ export default function robots() {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://telefoniaciocca.it/sitemap.xml',
+    sitemap: 'https://www.telefoniaciocca.it/sitemap.xml',
   };
 }

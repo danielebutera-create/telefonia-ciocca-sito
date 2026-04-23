@@ -1,5 +1,5 @@
 export default function sitemap() {
-  const baseUrl = 'https://telefoniaciocca.it';
+  const baseUrl = 'https://www.telefoniaciocca.it';
 
   return [
     // Home

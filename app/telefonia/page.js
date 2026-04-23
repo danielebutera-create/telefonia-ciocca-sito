@@ -4,7 +4,7 @@ import { Smartphone, Wifi, RefreshCw, Wrench, ArrowRight, Phone, MessageCircle, 
 export const metadata = {
   title: "Telefonia e Smartphone a Capena e Passo Corese | Telefonia Ciocca",
   description: "Assistenza smartphone, fibra ottica, SIM e smartphone ricondizionati a Capena e Passo Corese. Consulenza gratuita, nessun call center.",
-  alternates: { canonical: "https://telefoniaciocca.it/telefonia" },
+  alternates: { canonical: "https://www.telefoniaciocca.it/telefonia" },
 };
 
 const WA = "https://wa.me/39069073674?text=Ciao%20Telefonia%20Ciocca%2C%20ho%20bisogno%20di%20informazioni%20sui%20servizi%20telefonia.";

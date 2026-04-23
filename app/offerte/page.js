@@ -3,7 +3,7 @@ import Image from 'next/image';
 export const metadata = {
   title: "Offerte Smartphone, Fibra e Mobile a Capena",
   description: "Scopri le migliori offerte su smartphone, attivazioni SIM, fibra ottica ed energia a Capena. Le migliori tariffe per il tuo risparmio.",
-  alternates: { canonical: "https://telefoniaciocca.it/offerte" },
+  alternates: { canonical: "https://www.telefoniaciocca.it/offerte" },
 };
 
 export default function Offerte() {

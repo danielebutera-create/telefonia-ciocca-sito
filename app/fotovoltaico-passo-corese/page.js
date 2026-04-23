@@ -4,7 +4,7 @@ import { Battery, PiggyBank, PenTool, Sun } from "lucide-react";
 export const metadata = {
   title: "Fotovoltaico a Passo Corese e Fara in Sabina | Telefonia Ciocca",
   description: "Preventivi gratuiti per impianti fotovoltaici a Passo Corese, Fara in Sabina e provincia di Rieti. Batterie d'accumulo, incentivi fiscali e consulenza imparziale. Sede in Via Garibaldi 72.",
-  alternates: { canonical: "https://telefoniaciocca.it/fotovoltaico-passo-corese" },
+  alternates: { canonical: "https://www.telefoniaciocca.it/fotovoltaico-passo-corese" },
 };
 
 export default function FotovoltaicoPassoCorese() {

@@ -4,7 +4,7 @@ import { Scale, HeartHandshake, EyeOff, Lightbulb } from "lucide-react";
 export const metadata = {
   title: "Risparmia su bollette Luce e Gas a Capena | Telefonia Ciocca",
   description: "Analisi gratuita della bolletta luce e gas a Capena, Fiano Romano. Ti mostreremo le vere tariffe per il risparmio.",
-  alternates: { canonical: "https://telefoniaciocca.it/risparmio-bolletta" },
+  alternates: { canonical: "https://www.telefoniaciocca.it/risparmio-bolletta" },
 };
 
 export default function RisparmioBolletta() {

@@ -4,7 +4,7 @@ import { ShieldAlert, Video, KeyRound, BellRing } from "lucide-react";
 export const metadata = {
   title: "Allarmi e sicurezza a Passo Corese — Partner Verisure | Telefonia Ciocca",
   description: "Sistemi di allarme e videosorveglianza a Passo Corese e Fara in Sabina. Partner ufficiali Verisure. Consulenza gratuita, monitoraggio 24/7. Sede in Via Garibaldi 72.",
-  alternates: { canonical: "https://telefoniaciocca.it/sicurezza-passo-corese" },
+  alternates: { canonical: "https://www.telefoniaciocca.it/sicurezza-passo-corese" },
 };
 
 export default function SicurezzaPassoCorese() {

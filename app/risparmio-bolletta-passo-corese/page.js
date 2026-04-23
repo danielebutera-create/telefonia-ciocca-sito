@@ -4,7 +4,7 @@ import { Scale, HeartHandshake, EyeOff, Lightbulb } from "lucide-react";
 export const metadata = {
   title: "Risparmia su bollette Luce e Gas a Passo Corese | Telefonia Ciocca",
   description: "Analisi gratuita bollette luce e gas a Passo Corese e Fara in Sabina. Confronto tra 15+ fornitori, nessun call center. Sede in Via Garibaldi 72.",
-  alternates: { canonical: "https://telefoniaciocca.it/risparmio-bolletta-passo-corese" },
+  alternates: { canonical: "https://www.telefoniaciocca.it/risparmio-bolletta-passo-corese" },
 };
 
 export default function RisparmioBollettaPassoCorese() {

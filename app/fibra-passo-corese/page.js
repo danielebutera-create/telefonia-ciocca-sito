@@ -4,7 +4,7 @@ import { Wifi, Router, Map, MonitorSmartphone } from "lucide-react";
 export const metadata = {
   title: "Fibra ottica a Passo Corese e Fara in Sabina | Telefonia Ciocca",
   description: "Verifica copertura fibra ottica a Passo Corese, Fara in Sabina, Poggio Mirteto. Tariffe Fastweb, Vodafone, Iliad e soluzioni FWA. Consulenza gratuita in negozio.",
-  alternates: { canonical: "https://telefoniaciocca.it/fibra-passo-corese" },
+  alternates: { canonical: "https://www.telefoniaciocca.it/fibra-passo-corese" },
 };
 
 export default function FibraPassoCorese() {

@@ -4,7 +4,7 @@ import { ShieldAlert, Video, KeyRound, BellRing } from "lucide-react";
 export const metadata = {
   title: "Allarmi e sicurezza a Capena — Partner Verisure | Telefonia Ciocca",
   description: "Sistemi di allarme e videosorveglianza con partnership ufficiali Verisure. Soluzioni personalizzate ed attive 24/7. Consulenza gratuita a Capena.",
-  alternates: { canonical: "https://telefoniaciocca.it/sicurezza-capena" },
+  alternates: { canonical: "https://www.telefoniaciocca.it/sicurezza-capena" },
 };
 
 export default function SicurezzaCapena() {

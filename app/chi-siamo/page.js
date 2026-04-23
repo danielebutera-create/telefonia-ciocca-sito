@@ -3,7 +3,7 @@ import Image from 'next/image';
 export const metadata = {
   title: "Chi Siamo - Oltre 25 anni di eccellenza | Telefonia Ciocca",
   description: "Da oltre 25 anni, il tuo punto di riferimento a Capena per telecomunicazioni, energia e assistenza tecnica professionale.",
-  alternates: { canonical: "https://telefoniaciocca.it/chi-siamo" },
+  alternates: { canonical: "https://www.telefoniaciocca.it/chi-siamo" },
 };
 
 export default function ChiSiamo() {
