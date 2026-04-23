@@ -1,6 +1,7 @@
 export const metadata = {
   title: "Cookie Policy | Telefonia Ciocca",
   description: "Informativa sull'utilizzo dei cookie sul sito telefoniaciocca.it. Il sito utilizza esclusivamente cookie tecnici necessari e non richiede consenso.",
+  alternates: { canonical: "https://telefoniaciocca.it/cookies" },
 };
 
 const sectionTitle = {

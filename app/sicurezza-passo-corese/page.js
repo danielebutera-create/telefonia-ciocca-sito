@@ -4,6 +4,7 @@ import { ShieldAlert, Video, KeyRound, BellRing } from "lucide-react";
 export const metadata = {
   title: "Allarmi e sicurezza a Passo Corese — Partner Verisure | Telefonia Ciocca",
   description: "Sistemi di allarme e videosorveglianza a Passo Corese e Fara in Sabina. Partner ufficiali Verisure. Consulenza gratuita, monitoraggio 24/7. Sede in Via Garibaldi 72.",
+  alternates: { canonical: "https://telefoniaciocca.it/sicurezza-passo-corese" },
 };
 
 export default function SicurezzaPassoCorese() {
@@ -34,12 +35,15 @@ export default function SicurezzaPassoCorese() {
       heroImage="/images/sicurezza-hero.png"
       operatorsText="In qualità di partner ufficiali Verisure offriamo progettazione anti-intrusione, guardia privata e manutenzione a vita del sistema. Operiamo su tutta la zona di Fara in Sabina e provincia di Rieti."
       serviceArea={["Passo Corese", "Fara in Sabina", "Poggio Mirteto", "Montopoli di Sabina", "Cantalupo in Sabina", "Torri in Sabina"]}
-      ctaPrimary={{ label: "Consulenza Gratuita", href: "https://wa.me/39069073674?text=Vorrei%20un%20preventivo%20sicurezza%20Verisure%20a%20Passo%20Corese." }}
+      ctaPrimary={{ label: "Consulenza Gratuita", href: "https://wa.me/390765213394?text=Vorrei%20un%20preventivo%20sicurezza%20Verisure%20a%20Passo%20Corese." }}
+      ctaSecondary={{ label: "Scrivici su WhatsApp", href: "https://wa.me/390765213394" }}
+      phoneDisplay="0765 213394"
+      phoneHref="tel:+390765213394"
       relatedLandings={relatedLandings}
       faq={[
         { question: "Bisogna fare lavori per installare il sistema?", answer: "No. La grande maggioranza dei componenti Verisure è wireless e anti-jamming: nessun passacavi, nessuna ristrutturazione." },
         { question: "Funziona bene anche nelle zone isolate della Sabina?", answer: "Sì. Verisure ha copertura su tutta la provincia di Rieti e gestisce gli eventuali falsi allarmi attraverso la centrale verificatrice, evitando sanzioni." },
-        { question: "Dove si trova la sede di Passo Corese?", answer: "Via Garibaldi 72, 02032 Fara in Sabina (RI). Telefono: 06 9073 674 — stesso numero della sede di Capena." }
+        { question: "Dove si trova la sede di Passo Corese?", answer: "Via Garibaldi 72, 02032 Fara in Sabina (RI). Tel: 0765 213394." }
       ]}
     />
   );

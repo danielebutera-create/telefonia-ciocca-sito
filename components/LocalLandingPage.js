@@ -17,6 +17,8 @@ export default function LocalLandingPage({
   serviceArea = ["Capena", "Fiano Romano", "Castelnuovo di Porto", "Riano", "Passo Corese"],
   ctaPrimary,
   ctaSecondary = { label: "Scrivici su WhatsApp", href: "https://wa.me/39069073674" },
+  phoneDisplay = "06 9073 674",
+  phoneHref = "tel:069073674",
   relatedLandings = [],
   faq = [],
 }) {
@@ -213,15 +215,15 @@ export default function LocalLandingPage({
             Siamo a tua disposizione per trovare la soluzione migliore. Nessun call center, parlerai direttamente con i nostri esperti in negozio.
           </p>
           <div className="flex flex-wrap justify-center gap-6">
-            <a href="tel:069073674" style={{
+            <a href={phoneHref} style={{
               display: "inline-flex", alignItems: "center", gap: "0.5rem",
               padding: "1rem 2rem", borderRadius: "var(--radius)",
               background: "white", color: "var(--primary)",
               fontWeight: 700, fontSize: "1.125rem", textDecoration: "none",
             }}>
-              Chiama Subito: 06 9073 674
+              Chiama Subito: {phoneDisplay}
             </a>
-            <a href="https://wa.me/39069073674" target="_blank" rel="noopener noreferrer" style={{
+            <a href={ctaSecondary.href} target="_blank" rel="noopener noreferrer" style={{
               display: "inline-flex", alignItems: "center", gap: "0.5rem",
               padding: "1rem 2rem", borderRadius: "var(--radius)",
               background: "transparent", color: "white",

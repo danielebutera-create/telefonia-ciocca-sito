@@ -25,11 +25,12 @@ export default function sitemap() {
     { url: `${baseUrl}/assistenza-smartphone-passo-corese`, lastModified: new Date() },
 
     // Utility
-    { url: `${baseUrl}/chi-siamo`, lastModified: new Date() },
-    { url: `${baseUrl}/contatti`, lastModified: new Date() },
-    { url: `${baseUrl}/carica-bolletta`, lastModified: new Date() },
-    { url: `${baseUrl}/offerte`, lastModified: new Date() },
-    { url: `${baseUrl}/privacy`, lastModified: new Date() },
-    { url: `${baseUrl}/cookies`, lastModified: new Date() },
+    { url: `${baseUrl}/chi-siamo`, lastModified: new Date(), priority: 0.7 },
+    { url: `${baseUrl}/contatti`, lastModified: new Date(), priority: 0.8 },
+    { url: `${baseUrl}/carica-bolletta`, lastModified: new Date(), priority: 0.9 },
+    { url: `${baseUrl}/offerte`, lastModified: new Date(), priority: 0.9 },
+    { url: `${baseUrl}/servizi`, lastModified: new Date(), priority: 0.8 },
+    { url: `${baseUrl}/privacy`, lastModified: new Date(), priority: 0.3 },
+    { url: `${baseUrl}/cookies`, lastModified: new Date(), priority: 0.3 },
   ];
 }

@@ -4,6 +4,7 @@ import { Wrench, MailSearch, SmartphoneNfc, ShieldCheck } from "lucide-react";
 export const metadata = {
   title: "Assistenza Smartphone a Capena e Passo Corese | Telefonia Ciocca",
   description: "Servizi smartphone e assistenza tecnica a Capena. Configurazione espresse, recupero dati e supporto digitale.",
+  alternates: { canonical: "https://telefoniaciocca.it/assistenza-smartphone-capena" },
 };
 
 export default function AssistenzaSmartphone() {

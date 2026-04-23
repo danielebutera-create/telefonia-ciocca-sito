@@ -4,9 +4,10 @@ import { MapPin, Phone, ArrowRight, Wifi, Sun, Shield, Smartphone, Zap, MessageC
 export const metadata = {
   title: "Telefonia Ciocca Passo Corese — Fibra, Energia, Fotovoltaico a Fara in Sabina",
   description: "Nuova sede Telefonia Ciocca a Passo Corese (Fara in Sabina). Fibra ottica, risparmio bollette, fotovoltaico, sicurezza e assistenza smartphone. Via Garibaldi 72.",
+  alternates: { canonical: "https://telefoniaciocca.it/passo-corese" },
 };
 
-const WA = "https://wa.me/39069073674?text=Ciao%20Telefonia%20Ciocca%2C%20vorrei%20informazioni%20sulla%20sede%20di%20Passo%20Corese.";
+const WA = "https://wa.me/390765213394?text=Ciao%20Telefonia%20Ciocca%2C%20vorrei%20informazioni%20sulla%20sede%20di%20Passo%20Corese.";
 
 const services = [
   {
@@ -92,7 +93,7 @@ export default function PassoCorese() {
                 <MessageCircle size={18} />
                 Scrivici su WhatsApp
               </a>
-              <a href="tel:069073674" style={{
+              <a href="tel:+390765213394" style={{
                 display: "inline-flex", alignItems: "center", gap: "0.5rem",
                 padding: "0.875rem 1.5rem", borderRadius: "0.75rem",
                 background: "rgba(255,255,255,0.1)", color: "white",
@@ -100,7 +101,7 @@ export default function PassoCorese() {
                 fontWeight: 700, fontSize: "1rem", textDecoration: "none",
               }}>
                 <Phone size={18} />
-                06 9073 674
+                0765 213394
               </a>
               <a href="https://maps.google.com/?q=Via+Garibaldi+72+Fara+in+Sabina" target="_blank" rel="noopener noreferrer" style={{
                 display: "inline-flex", alignItems: "center", gap: "0.5rem",
@@ -126,7 +127,7 @@ export default function PassoCorese() {
               Cosa trovi a Passo Corese
             </h2>
             <p style={{ fontSize: "1.0625rem", color: "#475569", maxWidth: "36rem", margin: "0 auto" }}>
-              Stessi servizi della sede di Capena, stesso numero di telefono, stesso team.
+              Stessi servizi della sede di Capena, stesso team.
             </p>
           </div>
 
@@ -183,7 +184,7 @@ export default function PassoCorese() {
             ))}
           </div>
           <p style={{ textAlign: "center", marginTop: "1.25rem", fontSize: "0.875rem", color: "#64748b" }}>
-            Stesso numero per entrambe le sedi: <a href="tel:069073674" style={{ color: "#1a6fb5", fontWeight: 600 }}>06 9073 674</a>
+            Tel. sede: <a href="tel:+390765213394" style={{ color: "#1a6fb5", fontWeight: 600 }}>0765 213394</a>
           </p>
         </div>
       </section>
@@ -231,7 +232,7 @@ export default function PassoCorese() {
               <MessageCircle size={20} />
               Scrivici su WhatsApp
             </a>
-            <a href="tel:069073674" style={{
+            <a href="tel:+390765213394" style={{
               display: "inline-flex", alignItems: "center", gap: "0.5rem",
               padding: "1rem 2rem", borderRadius: "0.75rem",
               background: "white", color: "#0f172a",
@@ -239,7 +240,7 @@ export default function PassoCorese() {
               fontWeight: 700, fontSize: "1.0625rem", textDecoration: "none",
             }}>
               <Phone size={20} />
-              Chiama: 06 9073 674
+              Chiama: 0765 213394
             </a>
           </div>
         </div>

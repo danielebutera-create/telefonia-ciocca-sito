@@ -4,6 +4,7 @@ import { Battery, PiggyBank, PenTool, Sun } from "lucide-react";
 export const metadata = {
   title: "Fotovoltaico a Passo Corese e Fara in Sabina | Telefonia Ciocca",
   description: "Preventivi gratuiti per impianti fotovoltaici a Passo Corese, Fara in Sabina e provincia di Rieti. Batterie d'accumulo, incentivi fiscali e consulenza imparziale. Sede in Via Garibaldi 72.",
+  alternates: { canonical: "https://telefoniaciocca.it/fotovoltaico-passo-corese" },
 };
 
 export default function FotovoltaicoPassoCorese() {
@@ -34,7 +35,10 @@ export default function FotovoltaicoPassoCorese() {
       pricingNote="Impianti a partire da ~80€/mese con finanziamento e incentivi fiscali fino al 50%"
       operatorsText="Lavoriamo con Edison Energia e partner installatori certificati che operano nella provincia di Rieti. Valutiamo l'opportunità, selezioniamo il contratto migliore e tuteliamo il tuo interesse fino alla firma."
       serviceArea={["Passo Corese", "Fara in Sabina", "Poggio Mirteto", "Montopoli di Sabina", "Cantalupo in Sabina", "Rieti"]}
-      ctaPrimary={{ label: "Preventivo gratuito", href: "https://wa.me/39069073674?text=Vorrei%20un%20preventivo%20fotovoltaico%20per%20Passo%20Corese." }}
+      ctaPrimary={{ label: "Preventivo gratuito", href: "https://wa.me/390765213394?text=Vorrei%20un%20preventivo%20fotovoltaico%20per%20Passo%20Corese." }}
+      ctaSecondary={{ label: "Scrivici su WhatsApp", href: "https://wa.me/390765213394" }}
+      phoneDisplay="0765 213394"
+      phoneHref="tel:+390765213394"
       relatedLandings={relatedLandings}
       faq={[
         { question: "Telefonia Ciocca installa l'impianto?", answer: "No: noi valutiamo l'opportunità, ti affianchiamo nella scelta del contratto e curiamo la consulenza fino alla firma. L'installazione è eseguita dai partner certificati (es. Edison Energia) che operano anche nella provincia di Rieti." },

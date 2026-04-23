@@ -4,6 +4,7 @@ import { Wifi, Router, Map, MonitorSmartphone } from "lucide-react";
 export const metadata = {
   title: "Fibra ottica a Capena e provincia | Telefonia Ciocca",
   description: "Verifica la copertura per la Fibra Ottica a Capena, Fiano Romano, Riano. Scopri le migliori tariffe Fastweb, Vodafone e 5G.",
+  alternates: { canonical: "https://telefoniaciocca.it/fibra-capena" },
 };
 
 export default function FibraCapena() {

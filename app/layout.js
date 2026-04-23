@@ -16,9 +16,21 @@ const outfit = Outfit({
 });
 
 export const metadata = {
-  title: "Telefonia Ciocca | Energia, Fibra e Assistenza a Capena",
+  metadataBase: new URL("https://telefoniaciocca.it"),
+  title: {
+    default: "Telefonia Ciocca | Energia, Fibra e Assistenza a Capena",
+    template: "%s | Telefonia Ciocca",
+  },
   description: "Da oltre 25 anni il tuo punto di riferimento a Capena per telefonia, energia, fibra ottica e assistenza tecnica professionale.",
   keywords: ["telefonia capena", "assistenza cellulari capena", "luce e gas capena", "fibra ottica capena", "telefonia ciocca"],
+  alternates: {
+    canonical: "https://telefoniaciocca.it",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
+  },
 };
 
 export default function RootLayout({ children }) {

@@ -4,6 +4,7 @@ import { Scale, HeartHandshake, EyeOff, Lightbulb } from "lucide-react";
 export const metadata = {
   title: "Risparmia su bollette Luce e Gas a Passo Corese | Telefonia Ciocca",
   description: "Analisi gratuita bollette luce e gas a Passo Corese e Fara in Sabina. Confronto tra 15+ fornitori, nessun call center. Sede in Via Garibaldi 72.",
+  alternates: { canonical: "https://telefoniaciocca.it/risparmio-bolletta-passo-corese" },
 };
 
 export default function RisparmioBollettaPassoCorese() {
@@ -33,7 +34,10 @@ export default function RisparmioBollettaPassoCorese() {
       valueProps={valueProps}
       operatorsText="Confrontiamo le offerte di Edison, A2A, Fastweb Energia, WindTre Energia, Acea, Optima ed altri ancora. Il nostro obiettivo è trovare la tariffa migliore per te, non per il fornitore."
       serviceArea={["Passo Corese", "Fara in Sabina", "Poggio Mirteto", "Montopoli di Sabina", "Cantalupo in Sabina", "Torri in Sabina"]}
-      ctaPrimary={{ label: "Porta la tua bolletta", href: "https://wa.me/39069073674?text=Vorrei%20un%27analisi%20gratuita%20della%20mia%20bolletta%20a%20Passo%20Corese." }}
+      ctaPrimary={{ label: "Porta la tua bolletta", href: "https://wa.me/390765213394?text=Vorrei%20un%27analisi%20gratuita%20della%20mia%20bolletta%20a%20Passo%20Corese." }}
+      ctaSecondary={{ label: "Scrivici su WhatsApp", href: "https://wa.me/390765213394" }}
+      phoneDisplay="0765 213394"
+      phoneHref="tel:+390765213394"
       relatedLandings={relatedLandings}
       faq={[
         { question: "La consulenza è davvero gratuita?", answer: "Sì, completamente gratuita e senza impegno. Puoi venire in negozio o fotografarci la bolletta via WhatsApp." },

@@ -1,6 +1,7 @@
 export const metadata = {
   title: "Privacy Policy | Telefonia Ciocca",
   description: "Informativa privacy ai sensi dell'art. 13 del Regolamento (UE) 2016/679 (GDPR) e del D.Lgs. 196/2003.",
+  alternates: { canonical: "https://telefoniaciocca.it/privacy" },
 };
 
 const h2Style = { fontSize: '1.25rem', fontWeight: 700, color: 'var(--text-primary)', marginBottom: '0.75rem' };

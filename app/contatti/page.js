@@ -1,13 +1,15 @@
 export const metadata = {
   title: "Contattaci o vieni a trovarci a Capena | Telefonia Ciocca",
   description: "Hai bisogno di assistenza o vuoi richiedere un preventivo gratuito per fibra, fotovoltaico o riparazioni? Contattaci subito.",
+  alternates: { canonical: "https://telefoniaciocca.it/contatti" },
 };
 
 const MAPS_NAV = "https://maps.google.com/?q=Telefonia+Ciocca,+Via+Tiberina+28C,+00060+Capena+RM&dirflg=d";
 
 export default function Contatti() {
   const info = [
-    { title: 'Telefono', value: '06 9073674', detail: 'Disponibile anche su WhatsApp', icon: '📞', action: 'tel:069073674' },
+    { title: 'Telefono Capena', value: '06 9073674', detail: 'Disponibile anche su WhatsApp', icon: '📞', action: 'tel:069073674' },
+    { title: 'Telefono Passo Corese', value: '0765 213394', detail: 'Sede di Via Garibaldi, 72', icon: '📞', action: 'tel:+390765213394' },
     { title: 'Email', value: 'info@telefoniaciocca.it', detail: 'Rispondiamo entro 24 ore', icon: '✉️', action: 'mailto:info@telefoniaciocca.it' },
     { title: 'Indirizzo', value: 'Via Tiberina, 28C — Capena (RM)', detail: 'Clicca per le indicazioni', icon: '📍', action: MAPS_NAV },
   ];
@@ -36,7 +38,7 @@ export default function Contatti() {
             <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
               {info.map((item) => (
                 <a key={item.title} href={item.action}
-                  target={item.title !== 'Telefono' ? '_blank' : '_self'}
+                  target={item.action.startsWith('tel:') || item.action.startsWith('mailto:') ? '_self' : '_blank'}
                   rel="noreferrer"
                   style={{
                     background: 'var(--card)',

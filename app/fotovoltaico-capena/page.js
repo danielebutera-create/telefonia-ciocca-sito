@@ -10,6 +10,7 @@ export const metadata = {
     type: "website",
     locale: "it_IT",
   },
+  alternates: { canonical: "https://telefoniaciocca.it/fotovoltaico-capena" },
 };
 
 export default function Fotovoltaico() {

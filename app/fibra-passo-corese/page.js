@@ -4,6 +4,7 @@ import { Wifi, Router, Map, MonitorSmartphone } from "lucide-react";
 export const metadata = {
   title: "Fibra ottica a Passo Corese e Fara in Sabina | Telefonia Ciocca",
   description: "Verifica copertura fibra ottica a Passo Corese, Fara in Sabina, Poggio Mirteto. Tariffe Fastweb, Vodafone, Iliad e soluzioni FWA. Consulenza gratuita in negozio.",
+  alternates: { canonical: "https://telefoniaciocca.it/fibra-passo-corese" },
 };
 
 export default function FibraPassoCorese() {
@@ -34,12 +35,15 @@ export default function FibraPassoCorese() {
       heroImage="/images/fibra-hero.png"
       operatorsText="Confrontiamo le tariffe di Fastweb, Vodafone, WindTre, Sky Wifi, Iliad ed Eolo per le zone con copertura difficile nella provincia di Rieti."
       serviceArea={["Passo Corese", "Fara in Sabina", "Poggio Mirteto", "Montopoli di Sabina", "Cantalupo in Sabina", "Torri in Sabina"]}
-      ctaPrimary={{ label: "Verifica copertura ora", href: "https://wa.me/39069073674?text=Vorrei%20verificare%20la%20copertura%20fibra%20a%20Passo%20Corese." }}
+      ctaPrimary={{ label: "Verifica copertura ora", href: "https://wa.me/390765213394?text=Vorrei%20verificare%20la%20copertura%20fibra%20a%20Passo%20Corese." }}
+      ctaSecondary={{ label: "Scrivici su WhatsApp", href: "https://wa.me/390765213394" }}
+      phoneDisplay="0765 213394"
+      phoneHref="tel:+390765213394"
       relatedLandings={relatedLandings}
       faq={[
         { question: "La verifica copertura è a pagamento?", answer: "No, verifichiamo gratuitamente le cabine locali al vostro indirizzo — in negozio o via messaggio, senza alcun costo." },
         { question: "Vi occupate della disdetta del vecchio operatore?", answer: "Sì, gestiamo noi la migrazione burocratica per evitare PEC e procedure complesse. Pensiamo a tutto noi." },
-        { question: "Dove si trova la sede di Passo Corese?", answer: "Siamo in Via Garibaldi 72, 02032 Fara in Sabina (RI). Stesso numero delle due sedi: 06 9073 674." }
+        { question: "Dove si trova la sede di Passo Corese?", answer: "Siamo in Via Garibaldi 72, 02032 Fara in Sabina (RI). Tel: 0765 213394." }
       ]}
     />
   );

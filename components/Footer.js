@@ -90,10 +90,10 @@ export default function Footer() {
                 </div>
                 <div style={{ fontSize: '0.8125rem', color: 'rgba(255,255,255,0.55)', lineHeight: 1.6 }}>
                   Via Garibaldi, 72 — Fara in Sabina<br />
-                  <a href="tel:069073674" style={{ color: 'rgba(255,255,255,0.35)', fontSize: '0.75rem', transition: 'color 0.2s' }}
+                  <a href="tel:+390765213394" style={{ color: 'rgba(255,255,255,0.35)', fontSize: '0.75rem', transition: 'color 0.2s' }}
                     onMouseEnter={(e) => e.target.style.color = '#e87722'}
                     onMouseLeave={(e) => e.target.style.color = 'rgba(255,255,255,0.35)'}
-                  >06 9073674 (stesso numero)</a>
+                  >0765 213394</a>
                 </div>
               </li>
 

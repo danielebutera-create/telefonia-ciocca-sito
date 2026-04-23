@@ -4,6 +4,7 @@ import { Zap, Sun, Shield, TrendingDown, ArrowRight, Phone, MessageCircle, Check
 export const metadata = {
   title: "Risparmio Energia a Capena e Passo Corese | Telefonia Ciocca",
   description: "Risparmia su luce, gas e bollette energetiche con la consulenza gratuita di Telefonia Ciocca. Fotovoltaico, mercato libero e sicurezza a Capena e Passo Corese.",
+  alternates: { canonical: "https://telefoniaciocca.it/energia" },
 };
 
 const WA = "https://wa.me/39069073674?text=Ciao%20Telefonia%20Ciocca%2C%20vorrei%20una%20consulenza%20gratuita%20sulle%20bollette%20energia.";

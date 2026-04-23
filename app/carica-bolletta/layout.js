@@ -7,6 +7,7 @@ export const metadata = {
     type: "website",
     locale: "it_IT",
   },
+  alternates: { canonical: "https://telefoniaciocca.it/carica-bolletta" },
 };
 
 export default function CaricaBollettaLayout({ children }) {
